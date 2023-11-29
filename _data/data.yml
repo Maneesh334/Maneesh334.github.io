@@ -1,0 +1,186 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Maneesh Reddy
+    tagline: Graduate Student in Computer Science
+    avatar: DSC_1712.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: maneeshreddy334@gmail.com
+    phone: 2404063122
+    timezone: Eastern Standard Time
+    website: maneeshreddy334.github.io #do not add http://
+    linkedin: maneesh-reddy-05718b208
+    xing: 
+    github: Maneesh334
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: 18352589-maneesh-reddy # Number-Username, e.g. 123456-alandoe
+    pdf: 
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Native
+
+        - idiom: Telugu
+          level: Native
+
+        - idiom: Hindi
+          level: Professional
+
+    interests:
+      title: Interests
+      info:
+        - item: Reading
+          link:
+
+        - item: Traveling
+          link:
+
+        - item: Fitness
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I am a self-driven and committed first year graduate student in Computer Science at Stony Brook University
+      ready to tackle new internship opportunites in the fields of computer science. I have 1 year of professional 
+      work experience in building scalable applications at Rupifi as a backend software engineer from July 2022 
+      to August 2023. My previous internship experiences were at Convergent Technologies and Flipkart where I worked 
+      for 6 months as a DevOps intern and honed my skills to thrive in a highly dynamic environment. I have completed 
+      my bachelors in Computer Science from BITS Pilani, Hyderabad with a CGPA of 8.56.
+education:
+    title: Education
+    info:
+      - degree: MS in Computer Science
+        university: Stony Brook University
+        time: August 2023 - May 2025
+        details: |
+            - Courses: Recent Advances in AI/ML, Data Science Fundamentals, Discrete Mathematics
+      - degree: BE in Computer Science
+        university: BITS Pilani
+        time: August 2018 - May 2022
+        details: |
+            - Course: Data Structures & Algorithms, Discrete Structures in Computer Science, 
+            Digital Design, Logic in Computer Science, Database Systems, Microprocessors & Interfacing,
+            Computer Networks, Computer Architecture, Operating Systems, Theory of Computation, 
+            Information Retrieval, Cryptography, Computer Programming, Object Oriented Programming,
+            Compiler Construction, Data Analysis & Algorithms, Data Mining, Combinatorial Math 
+
+
+experiences:
+    title: Experiences
+    info:
+      - role: Software Development Engineer
+        time: July 2022 - August 2023
+        company: Rupifi
+        details: |
+          | Golang, Python, Redis, Gin, protobuf
+          - Primarily worked on payment gateway(PayU, Razorpay, Easebuzz) API integration and iteratively developed and
+            improved over our in-house APIs.
+          - Developed our own webhook mechanism for sending, receiving and managing webhooks - used to notify anchors on
+            occurrence of an event. Developed caching and logging mechanisms for team services. Implemented a file
+            management system by integrating AWS S3 for scalable object storage.
+          - Integrated various in-house microservices including generic microservices like messaging/whatsapp services,
+            webhook managers, link shorteners among others aiding in active functioning of team’s services. Actively ran SQL
+            queries for management of database according to team’s requirements.
+      - role: Software Engineering Intern
+        time: August 2021 - December 2021
+        company: Flipkart
+        details: |
+          | Java, Micronaut, Kubernetes, Docker, Python, bloomRPC, Locust, protobuf
+          - Deployed team services onto Kubernetes clusters.
+          - Development and management of CI/CD Jenkins pipelines.
+          - NFR testing using Python scripts.
+          - API integration of both REST and gRPC APIs for in-house purposes.
+      - role: Software Engineering Intern
+        time: June 2020 - July 2020
+        company: Convergent Technologies
+        details: |
+          | Kotlin, Android Studio, Java
+          - Explored methods to build a step counter and calorie tracker improving upon Google’s pre-existing step counter.
+          - Developed a fitness tracker app that included a personally tailored calorie counter, step counter and activity tracker
+            among other features.
+          - Gave multiple presentations on my internship at college
+
+projects:
+    title: Projects
+    intro: >
+      There are the side projects I've worked on:
+    assignments:
+      - title: Blockchain-based Supply Chain App
+        link: 
+        tagline: "- Built a blockchain-based supply chain application used to ensure maintenance
+            of quality of product while movement through different entities involved in
+            production and sale of product
+            - Developed using Python and JavaScript"
+
+      - title: Digital Assistant for ChatGPT
+        link: 
+        tagline: "- Developed a full-stack web application that includes a virtual assistant that can respond to audio queries.
+- Audio transcribed to text using Whisper, OpenAI APIs for answering queries and ElevenLabs for converting text to
+audio. Web application built using Python, HTML and JavaScript
+"
+
+      - title: Book recommender system
+        link: 
+        tagline: "- Developed a book recommendation system for beginners. Delivers personalized recommendations considering user
+preferences in analogous media - comics, TV, movies.
+- Developed in Python using pandas, scikit-learn"
+
+      - title: Cab Booking System
+        link: "#"
+        tagline: "- Developed a cab booking application that allocates cabs to users based on
+location and availability.
+- Developed in Java, mySQL used as database
+- GUI developed using Eclipse."
+
+      - title: Discord Quiz Bot
+        link: 
+        tagline: "- Built a bot that lets users host quizzes in their own servers on the Discord
+application, with questions being sourced by the users themselves.
+- Developed using Python."
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+        level: 90%
+
+      - name: Javascript & jQuery
+        level: 60%
+
+      - name: Golang
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: R
+        level: 65%
+
+      - name: Docker & Kubernetes
+        level: 80%
+
+      - name: Java
+        level: 80%
+
+      - name: C/C++
+        level: 80%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
