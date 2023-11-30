@@ -1,0 +1,15 @@
+# Skills
+# Organizational leadership
+- skill: Languages
+  description: Golang, Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R
+
+# Communications strategy
+- skill: Framworks
+  description: React, Node.js, Flask, Micronaut, Springboot, Gin
+
+# Digital content development and creation
+- skill: Libraries
+  description: hibernate, jUnit, log4j, mockito, SciPy, OpenCV, scikit-learn, pandas, NumPy, Matplotlib, BeautifulSoup
+
+- skill: Dev Tools
+  description: Git, Docker, Google Cloud Platform, AWS, VS Code, R Studio, Jupyter, Colab, VSCode

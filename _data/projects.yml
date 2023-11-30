@@ -1,0 +1,27 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+# jazznotes.io
+- project: Blockchain based Supply Chain App
+  # url: "#"
+  description: Built a blockchain-based supply chain application used to ensure maintenance
+            of quality of product while movement through different entities involved in
+            production and sale of product. Developed using Python and JavaScript.
+
+# Springfield Community Outreach Group
+- project: Digital Assistant For ChatGPT
+  # url: "#"
+  description: Developed a full-stack web application that includes a virtual assistant that can respond to audio queries.
+    Audio transcribed to text using Whisper, OpenAI APIs for answering queries and ElevenLabs for converting text to audio. Web application built using Python, HTML and JavaScript
+
+- project: Book recommender
+  # url: "#"
+  description: Developed a book recommendation system for beginners. Delivers personalized recommendations considering user
+    preferences in analogous media - comics, TV, movies. Developed in Python using pandas, scikit-learn.
+
+- project: Cab Booking System
+  description: Developed a cab booking application that allocates cabs to users based on location and availability. Developed in Java, mySQL used as database. GUI developed using Eclipse.
+
+- project: Discord Quiz Bot
+  description: Built a bot that lets users host quizzes in their own servers on the Discord
+    application, with questions being sourced by the users themselves. Developed using Python.

@@ -1,36 +1,66 @@
-#Update all the sections by editing the data.yml file inside _data folder.
-
-# Site Settings
-title: My Resume
-url: 'http://webjeda.com'
-
-#change it according to your repository name
-# disabling since we are using a custom domain
-#baseurl: '/online-cv' 
-
-description: A beautiful Jekyll theme for creating resume
-# Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: ceramic # blue turquoise green berry orange ceramic
-chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
-
-# Tracker
-analytics: UA-83979019-1
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+# Site settings
+title: "Jekyll Resume Template"
+description: "A resume template for Jekyll and GitHub Pages sites."
 
 # Build settings
-compress-site: yes
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
 
-encoding: "utf-8"
-compress_html: # - http://jch.penibelst.de/
-  clippings: all
-  ignore:
-    envs: development
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Maneesh Reddy"
+resume_title:                   "Graduate Student in Computer Science"
 
-# Development Settings
-port: 4000
-host: 0.0.0.0
-safe: false
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "maneeshreddy334@gmail.com"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "240-406-3122"
+resume_contact_address:         "Stony Brook, NY"
+
+resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
+display_header_contact_info:    "false"
+
+resume_header_intro: "<p>I am a self-driven and committed first year graduate student in Computer Science at Stony Brook University
+      excited to tackle new internship opportunites in the fields of computer science! I have 1 year of professional 
+      work experience in building scalable applications at Rupifi as a software engineer from July 2022 
+      to August 2023 and have previously interned in software engineering for a semester at Flipkart.</p>"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      true
+resume_section_education:       true
+resume_section_projects:        true
+resume_section_skills:          true
+resume_section_recognition:     true
+#resume_section_links:           true
+resume_section_associations:    true
+resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url:            "https://github.com/Maneesh334"
+  #resume_twitter_url:           "http://twitter.com/jglovier"
+  #resume_dribbble_url:          "https://dribbble.com/jag"
+  # resume_facebook_url:          "insert Facebook URL here"
+  resume_linkedin_url:          "https://www.linkedin.com/in/maneesh-reddy-05718b208/"
+  # resume_instagram_url:         "insert your Instagram URL here"
+  #resume_website_url:           "http:/"
+  #resume_medium_url:            "https://medium.com/@jglovier"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts

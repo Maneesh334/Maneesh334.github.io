@@ -1,90 +1,66 @@
-<a href="https://jekyll-themes.com">
-<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
-</a>
+# Resume template
 
-# Orbit
-> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
-> Visit [her website](http://themes.3rdwavemedia.com/) for more themes.
+*A simple Jekyll + GitHub Pages powered resume template.*
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
+![img](images/screenshot.png)
 
-<table>
-  <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/desktop.png?raw=true" width="600"/>
-    </td>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/mobile.png?raw=true" width="250"/>
-    </td>
-  </tr>
-</table>
+## Docs
 
-## Installation
+### Running locally
 
-* [Fork](https://github.com/sharu725/online-cv/fork) the repository;
-* Go to settings and set master branch as Github Pages source;
-* Your new site should be ready at `https://<username>.github.io/online-cv/`;
-* Printable version of the site can be found at `https://<username>.github.io/online-cv/print`. Use a third party link https://pdflayer.com/, https://www.web2pdfconvert.com/ etc to get the printable PDF.
+To test locally, run the following in your terminal:
 
-Change all the details from one place: `_data/data.yml`.
+1. Clone repo locally
+1. `bundle install`
+2. `bundle exec jekyll serve`
+3. Open your browser to `localhost:4000`
 
-### To preview/edit locally with docker
+### Running locally with Docker
 
-```sh
-docker-compose up
-```
+To test locally with docker, run the following in your terminal after installing docker into your system:
 
-*docker-compose.yml* file is used to create a container that is reachable under <http://localhost:4000>.
-Changes *_data/data.yml* will be visible after a while.
+1. `docker image build -t resume-template .`
+2. `docker run --rm --name resume-template -v "$PWD":/home/app --network host resume-template`
 
-### Local machine
+### Customizing
 
-* Get the repo into your machine 
+First you'll want to fork the repo to your own account. Then clone it locally and customize, or use the GitHub web editor to customize.
 
-```bash
-git clone https://github.com/sharu725/online-cv.git
-```
+#### Options/configuration
 
-* Install required ruby gems
+Most of the basic customization will take place in the `/_config.yml` file. Here is a list of customizations available via `/_config.yml`:
 
-```bash
-bundle install
-```
+[...write these out...]
 
-* Serve the site locally
+#### Editing content
 
-```bash
-bundle exec jekyll serve
-```
+Most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
 
-* Navigate to `http://localhost:4000`
+### Publishing to GitHub Pages for free
 
+[GitHub Pages](https://pages.github.com/) will host this for free with your GitHub account. Just make sure you're using a `gh-pages` branch, and the site will automatically be available at `yourusername.github.io/resume-template` (you can rename the repo to resume for your own use if you want it to be available at `yourusername.github.io/resume`). You can also add a CNAME if you want it to be available at a custom domain...
 
-## Skins
+### Configuring with your own domain name
 
-There are 6 color schemes available:
+To setup your GH Pages site with a custom domain, [follow the instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) on the GitHub Help site for that topic.
 
-| Blue | Turquoise | Green |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/blue.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/turquoise.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/green.jpg" width="300"/> |
+### Themes
 
-| Berry | Orange | Ceramic |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/berry.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/orange.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/ceramic.jpg" width="300"/> |
+Right now resume-template only has one theme. More are coming :soon: though. :heart:
 
-## Credits
+## Roadmap
 
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
+A feature roadmap is [available here](https://github.com/jglovier/resume-template/projects/1). If you features suggestions, please [open a new issue](https://github.com/jglovier/resume-template/issues/new).
 
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
+## Contributing
 
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
+If you spot a bug, or want to improve the code, or even make the dummy content better, you can do the following:
 
-## Star History
+1. [Open an issue](https://github.com/jglovier/resume-template/issues/new) describing the bug or feature idea
+2. Fork the project, make changes, and submit a pull request
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sharu725/online-cv&type=Date)](https://star-history.com/#sharu725/online-cv&Date)
+## License
 
+The code and styles are licensed under the MIT license. [See project license.](LICENSE) Obviously you should not use the content of this demo repo in your own resume. :wink:
+
+Disclaimer: Use of Lisa M. Simpson image and name used under [Fair Use](https://en.wikipedia.org/wiki/Fair_use) for educational purposes. Project license does not apply to use of this material.
